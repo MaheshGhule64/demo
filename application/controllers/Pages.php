@@ -142,7 +142,7 @@ foreach($data->data as $row){
                 $idx = array_search($days_arr[$i], $sequence) + 1;
                 $idx1 = array_search($days_arr[$i+1], $sequence) + 1;
 
-
+// new changes for pushing 
 
                 if(!(($idx+1)==$idx1)){
                     $flag = false;
